@@ -1,0 +1,1 @@
+A minecraft datapack for running a village defender game on a pre-existing map with village locations hardcoded.
