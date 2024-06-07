@@ -9,5 +9,6 @@ team remove Blue
 team remove Red
 schedule clear villagedefenders:countvillagers
 schedule clear villagedefenders:run_timer
+schedule clear villagedefenders:givehatsafterrespawn
 bossbar remove villagedefenders:vd_bar
 clear @a

@@ -9,3 +9,6 @@ item replace entity @a[team=Blue] armor.head with leather_helmet{display:{color:
 
 tp @a[team=Red] 93.0 68.0 150.0
 item replace entity @a[team=Red] armor.head with leather_helmet{display:{color:16711680},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+
+scoreboard objectives add respawn minecraft.custom:minecraft.time_since_death
+function villagedefenders:givehatsafterrespawn

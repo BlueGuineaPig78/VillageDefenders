@@ -1,0 +1,3 @@
+execute as @a[scores={respawn=1..}] at @s run item replace entity @s[team=Blue] armor.head with leather_helmet{display:{color:255},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+execute as @a[scores={respawn=1..}] at @s run item replace entity @s[team=Red] armor.head with leather_helmet{display:{color:16711680},Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+schedule function villagedefenders:givehatsafterrespawn 1t

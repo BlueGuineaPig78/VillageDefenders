@@ -1,3 +1,2 @@
 function villagedefenders:setupteams
 function villagedefenders:start_timer
-scoreboard objectives add respawn minecraft.custom:minecraft.time_since_death
