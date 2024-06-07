@@ -1,0 +1,1 @@
+tellraw @a {"text": "Village Defenders is loaded", "color": "#8BADF9"}
